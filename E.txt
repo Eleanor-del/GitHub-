@@ -1,0 +1,18 @@
+GitHub 连接一键修复工具 - 源码包
+================================
+
+文件说明：
+  github_fixer.py              主程序源码（Python 3.7+）
+  app_icon.ico                 程序图标
+  启动工具.bat                 双击运行（自动请求管理员权限）
+  一键打包成软件.bat           在 Windows 上打包为独立 exe
+  一键生成安装程序.bat         在 Windows 上生成 setup.exe 安装包
+  GitHub修复工具_安装脚本.iss  Inno Setup 安装脚本
+  GitHub修复工具_使用说明.md   详细使用说明
+
+运行方式：
+  方式1：双击"启动工具.bat"（需先安装 Python）
+  方式2：python github_fixer.py（需管理员权限）
+  方式3：运行"一键打包成软件.bat"生成独立 exe
+
+依赖：Python 3.7+（标准库即可，无需额外 pip 安装）
